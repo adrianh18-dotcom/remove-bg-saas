@@ -46,9 +46,7 @@ export default async function handler(
       try {
         const output = await replicate.run(
           'cjwbw/rembg:latest',
-          {
-            input: { image: fileData },
-          }
+          { input: { image: fileData } }
         );
 
         const imageBuffer = Buffer.from(output as string, 'base64');
