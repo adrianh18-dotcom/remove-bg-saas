@@ -64,6 +64,7 @@ export default function Home() {
         </Card>
       )}
 
+      {/* Espaço para o AdSense */}
       <div className="mt-10 w-full max-w-md h-32 border rounded bg-white flex items-center justify-center">
         <span>Anúncio Google AdSense aqui</span>
       </div>
